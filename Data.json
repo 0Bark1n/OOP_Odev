@@ -1,0 +1,104 @@
+﻿{
+  "Settings": {
+    "Difficulties": {
+      "1": {
+        "Name": "Kolay",
+        "Waves": 1,
+        "WinMsg": "Isınma turunu geçtin!",
+        "LoseMsg": "Tekrar dene."
+      },
+      "2": {
+        "Name": "Orta",
+        "Waves": 2,
+        "WinMsg": "Güzel iş!",
+        "LoseMsg": "Buraya kadarmış."
+      },
+      "3": {
+        "Name": "Zor",
+        "Waves": 3,
+        "WinMsg": "Sen bir canavarsın!",
+        "LoseMsg": "Ruhun şad olsun."
+      },
+      "4": {
+        "Name": "RNG Cehennemi",
+        "Waves": 4,
+        "WinMsg": "OHA! İMKANSIZI BAŞARDIN!",
+        "LoseMsg": "Kaderden kaçılmaz."
+      }
+    }
+  },
+  "PlayerStats": {
+    "Warrior": {
+      "Health": 350,
+      "CritChance": 25,
+      "MinDmg": 25,
+      "MaxDmg": 40
+    },
+    "Mage": {
+      "Health": 220,
+      "CritChance": 20,
+      "MinDmg": 35,
+      "MaxDmg": 85
+    }
+  },
+  "Enemies": [
+    {
+      "Name": "Kredi Borcu",
+      "Race": "Warrior",
+      "Health": 120,
+      "CritChance": 10,
+      "MinDmg": 8,
+      "MaxDmg": 15
+    },
+    {
+      "Name": "Eski Sevgili",
+      "Race": "Mage",
+      "Health": 90,
+      "CritChance": 15,
+      "MinDmg": 15,
+      "MaxDmg": 35
+    },
+    {
+      "Name": "Stajyer Maaşı",
+      "Race": "Mage",
+      "Health": 100,
+      "CritChance": 25,
+      "MinDmg": 5,
+      "MaxDmg": 60
+    }
+  ],
+  "Bosses": [
+    {
+      "Name": "FİNAL HAFTASI",
+      "Race": "BossWarrior",
+      "Health": 400,
+      "CritChance": 15,
+      "MinDmg": 25,
+      "MaxDmg": 45
+    },
+    {
+      "Name": "KYK BORCU",
+      "Race": "BossMage",
+      "Health": 350,
+      "CritChance": 20,
+      "MinDmg": 30,
+      "MaxDmg": 55
+    },
+    {
+      "Name": "DÜŞÜK NOT VEREN HOCA",
+      "Race": "BossWarrior",
+      "Health": 450,
+      "CritChance": 10,
+      "MinDmg": 35,
+      "MaxDmg": 50
+    },
+    {
+      "Name": "MİSAFİR ÇOCUĞU",
+      "Race": "BossMage",
+      "Health": 300,
+      "CritChance": 30,
+      "MinDmg": 40,
+      "MaxDmg": 80
+    }
+  ]
+}
